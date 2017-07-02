@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>篮球抽奖活动</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.js"></script>
+   
+</head>
+<body>
+    <div class="loading_mask">
+         <s></s>
+         <div id="loadBar" class="loadBar">
+              <span class="percent">
+                  <i></i>
+              </span>
+              <span class="percentNum">0%</span>
+        </div>  
+    </div>
+     <script src="js/loading.js"></script>
+    <div class="m_ballgame">
+          <div class="rules_c">
+                 <div class="flag"></div>
+                 <div class="rule_content">
+                     <div class="rule_content_c">
+                          <h3>Rules:</h3>
+                          <p>1. Register at Tomtop.com you can play this game to win points and coupons! </p>
+                          <p>2. There are 6 prizes:10 Points, 50 Points, $5 Coupon, 100 Points,20  Points, No Prizes.</p>
+                          <p>3.  One account just have 2 chances to play this game. The final prize is the total scores of the two shots.</p>
+                          <p>4. Please check the points or coupons in "My account" at TOMTOP website when you got the prizes.</p>
+                          <p>5. TOMTOP.COM reserve all rights to this contest.</p>
+                     </div>
+                 </div>
+             </div>
+         <div class="stage_wrap">
+             <div class="game_stage">
+                  <div class="scroll_wrap">
+                       <div class="scroll_container">
+                           <div class="result_rim">
+                                <p>100 Points</p>
+                           </div>
+                          
+                           <div class="scroll_c">
+                               <ul style="width:4588px">
+                                   <li>
+                                       <p>100 Points</p>
+                                   </li>
+                                   <li>
+                                       <p>50 Points</p>
+                                   </li>
+                                   <li>
+                                       <p>20 Points</p>
+                                   </li>
+                                   <li>
+                                       <p>$5 coupon</p>
+                                   </li>
+                                   <li>
+                                       <p>10 Points</p>
+                                   </li>
+                                   <li>
+                                       <p>Sorry No Prizes</p>
+                                   </li>
+
+                               </ul>
+                           </div>
+                       </div>
+                  </div>
+                  <div class="stage">
+                       <div class="hand"></div>
+                       <div class="base_ball"></div>
+                       <div class="ball_shadow"></div>
+                       <div class="start_tips"></div>
+                  </div>
+
+             </div>
+         </div>
+       
+         <div class="again_tips">start again</div>
+    </div>
+     
+      <!--中奖弹出层-->
+      <div class="dialog_pop">
+              <s></s>
+              <div class="text_pop">
+                  
+              </div>
+              <div class="flower"> </div>
+              <div class="mask"></div>
+      </div>
+
+    <script src="js/ballgame.js"></script>
+</body>
+</html>
